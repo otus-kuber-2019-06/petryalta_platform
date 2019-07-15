@@ -1,2 +1,9 @@
 # petryalta_platform
-petryalta Platform repository
+
+## Домашние задания
+
+### Home work 1
+
+Получен опыт описания и создания pod'а :
+* создал Dockerfile для сборки образа
+* создан yaml с init-контейнером для разворачивания пода
