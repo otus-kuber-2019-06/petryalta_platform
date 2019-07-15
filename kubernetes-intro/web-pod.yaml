@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  containers:
+  - name: web
+    image: petryalta/kuber-2019-06:job1
