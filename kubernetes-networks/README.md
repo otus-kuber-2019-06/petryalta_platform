@@ -41,10 +41,11 @@ nginx/master/deploy/static/mandatory.yaml) и добавлена [конфигу
 Задание:
 *Создал [Ingress правило](./dashboard-ingress.yaml) для доступа к Dashboard*
 
-
+Создал манифест для [канареечного тестирования](./canary-ingress.yaml)
 
 ---
 Полезные ссылки:
+- [MetalLB Usage](https://metallb.universe.tf/usage/)
 - [Ingress Nginx rewrite](https://kubernetes.github.io/ingress-nginx/examples/rewrite/)
 - [Canary ingress](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/#canary)
 
