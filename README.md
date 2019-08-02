@@ -2,8 +2,8 @@
 
 ## Домашние задания
 
-### Home work 1
+1. (Введение)[./kubernetes-intro/]
+2. (Безопасность)[./kuibernetes-security]
+3. (Обзор сетевой подсистемы)[./kubernetes-networks]
+4. (Volumes, Storages, Statefull)[./]
 
-Получен опыт описания и создания pod'а :
-* создал Dockerfile для сборки образа
-* создан yaml с init-контейнером для разворачивания пода
