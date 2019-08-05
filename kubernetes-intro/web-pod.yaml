@@ -8,6 +8,12 @@ spec:
   containers:
   - name: web
     image: petryalta/kuber-2019-06:job1
+    readinessProbe:
+      httpGet:
+        path: /index.html
+        port: 80
+    livenessProbe:
+      tcpSocket: { port: 8000 }
     volumeMounts:
     - name: app
       mountPath: /app
