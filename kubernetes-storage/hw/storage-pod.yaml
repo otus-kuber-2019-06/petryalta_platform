@@ -12,5 +12,5 @@ spec:
       mountPath: /data
   volumes:
   - name: test-volume
-    presistentVolumeClaim:
+    persistentVolumeClaim:
       claimName: storage-pvc
