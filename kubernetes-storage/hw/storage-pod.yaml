@@ -4,13 +4,13 @@ metadata:
   name: storage-pod
 spec:
   containers:
-    - name: storage-pod
+  - name: storage-pod
     image: ubuntu
     command: ["/bin/bash", "-ec", "while :; do sleep 2; done"]
     volumeMounts:
-      - mountPath: /data
+    - mountPath: /data
       name: test-volume
   volumes:
-    - name: test-volume
+  - name: test-volume
     presistentVolumeClaim:
       claimName: storage-pvc
