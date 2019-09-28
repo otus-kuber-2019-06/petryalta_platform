@@ -6,4 +6,5 @@
 2. [Безопасность](./kuibernetes-security)
 3. [Обзор сетевой подсистемы](./kubernetes-networks)
 4. [Volumes, Storages, Statefull](./kubernetes-volumes)
+5. [Storages](./kubernetes-storage)
 
